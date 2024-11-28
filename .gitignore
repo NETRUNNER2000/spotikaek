@@ -1,0 +1,51 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+kaek_env/
+.kaek_env/
+
+# Ignore .env file containing sensitive information
+.env
+.cache
+# Ignore IDE configuration files (for common IDEs)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build and distribution files (for packaging)
+build/
+dist/
+*.egg-info/
+
+# Ignore coverage and test result files
+.coverage
+nosetests.xml
+test-results/
+*.cover
+*.log
+*.bak
+*.tmp
+
+# Ignore macOS and Windows-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore key stores
+client_secret.json
+token.json
