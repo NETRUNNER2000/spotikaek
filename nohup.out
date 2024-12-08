@@ -1,0 +1,547 @@
+ * Serving Flask app 'spotifyauth'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 22:53:50] "GET / HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:37: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 22:53:51] "GET /callback?code=AQBazL-S9vsaWdvPMsRXEVc009x-uBiU2Lk0kCPH3xdg4Uw9iyJOvmA1q7HJ2D387C97my-MhrCAXTUN2JvKbn6SkzCuVVd4wfJiRbLYHZqIhDWPQ22OIpAQ-Rd2WuCKKnXcXEbUrZc0nOrIa1sIh2-W2bm55dTvfShvnVqCRyRZ4x9c9BO4WtOASrA4KsqwBxYx_RHePGbn HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 22:53:52] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 22:55:16] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 22:55:17] "GET /callback?code=AQD6pR6TS6AtUPAC_AwK233hQS514LciDFGPXj_qxOA8Uz6q9zyN0On5SBgZ8UKTQa8pF0QXmbtnwfk39iL-XFb-pjUVzXRhDVKLRq9MqsIpOMK2P0IqrGhKvsjhZIreSN_Ol22RXe6kVzrTxnmqa-lYDCjhyFeW8_XjR8d7A1Z7ABO3rHpgcFChjoy3zfwGEpnpmyYGf9Km HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 22:55:18] "GET /get_playlist HTTP/1.1" 200 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 22:59:31] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 22:59:58] "GET /get_playlist HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:00:44] "GET / HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:37: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:00:45] "GET /callback?code=AQA9B-hWd500rCHGgL22apHyYxc9Kf4cvgH7DhaMZN-LLCryu4x0ndoVostqDwpmKgFeU7U0n3mnCdBu5Shba7z4PKeO7ChhcHbCmSPz4or_w51sqRKarvxKrV0-DxlPX2h_iTonAwnOQeYbpD3qA9o3ELNFuPHPfiqXg_uHUW9U7Z3P433aFC1wdPO5h7xvZL-VyLcSliHO HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:00:46] "GET /get_playlist HTTP/1.1" 200 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:02:23] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:03:17] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:04:37] "GET /get_playlist HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:05:02] "GET /get_playlist HTTP/1.1" 302 -
+ * Serving Flask app 'spotifyauth'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:06:45] "GET /get_playlist HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:06:52] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:37: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:06:53] "GET /callback?code=AQAPkP-UyNF-0hXMp1UK13yH0uC11H8MOCjFNsmc3rdXquukPl2Z34FPCWHCbx-inWtAdOAgpnBNor6KzKhk3OuiBnJNo9bxo8FJqB-gcykypeOmBpUt1UR8RI-o5HiXMe-hdIeoaqZMtF8gjrLwL6iB6fWOCnaOVGIqx0LkCZTsU42rpjzlt797hydJCgKTAEeTs3zvikRp HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:06:54] "GET /get_playlist HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 53, in get_playlist
+    tracks.append({track_name, artist_name})
+AttributeError: 'dict' object has no attribute 'append'
+127.0.0.1 - - [29/Nov/2024 23:06:55] "GET /get_playlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:06:55] "GET /get_playlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:06:55] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png&s=e1kJZHT8ljmj7Dx8l2ce HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:06:56] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:07:03] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:37: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:07:04] "GET /callback?code=AQAwGccEF2mcgIGWChP0rnRuLlW-J15HK-kWisf6s6eWziA4CY7Pujyj98R_S7IopWeU9lOCwPRvn16iFsNNiQRHe2pr6HTo_FXRpD5KAbBluuUULtdWIzGpY5T-UhF15Xx6zeUWdrUiXgMEdYmGVUGdSJ7lQ5vTuK-35a7wpXA15SRSvukr4CZ8D5alK4H9RIuTQQnDja3f HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:07:05] "GET /get_playlist HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 57, in get_playlist
+    return jsonify(tracks)
+           ^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/json/__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/json/provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/json/provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/encoder.py", line 430, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/json/provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type set is not JSON serializable
+127.0.0.1 - - [29/Nov/2024 23:07:06] "GET /get_playlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:07:06] "GET /get_playlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:07:06] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png&s=USEQeC0WJ1la8nn3YHzj HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:07:06] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:07:22] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:37: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:07:22] "GET /callback?code=AQAyPOCRbJzNiFBsocfXUGBe28fWGRQ57y1xY_wIRmDAilPMhTw05Nm9RJNBw8Rb2nfyE2UNEO-IUCfhWxBni038HdB7hKT4J8hJkyMJVriXUmBrIqL7DtEJWGQWrzWQ-RUsRVfKPKymRQiTWiP7dXboZMjeB9861K5J0DnNLFL1lFd8294jiKZCu3MdUmG1jfgEB2A-SW_d HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:07:23] "GET /get_playlist HTTP/1.1" 200 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 40, in <module>
+    @app.before_request('/get_playlist')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 40, in <module>
+    @app.before_request('/get_playlist')
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+ * Serving Flask app 'spotifyauth'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Serving Flask app 'spotifyauth'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:11:34] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:14:47] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:14:47] "GET /callback?code=AQCDngh0ENpi33j_cDSr385IUXw5veMKIR8Hy8xWTiWcDOE5ImD87EMIsIDwmCNJ3KaJU2mOb7r-KIClM5YforiW2O33yDHHIgldDXZgiJ5AU68pX1Aqt006wI5FjX6ngtkMUKjSRk7vHaevpDs36lAsRCv7_hJMU8xoyVWlz_B6vnfxP2m6kA-EE0Ix8QFO8Zkn9nJIGLeQ HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:14:48] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:14:53] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:17:07] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:17:57] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:18:07] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:21:03] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:21:04] "GET /callback?code=AQC1ROnuXVu8QVIH6YceqzaYNgH2TL0qd2JVMka6qLZcbUDwk_VWiyrX0nc2zru7cDgCyNU5B6md3RkQiIxPIz2ahEDHmecPdWF_8axvXteqE2Bh5Rj32cUBi19Fw-XFnuH6N_WTYUaYubkbOW1liYY72OF0-pHW4Vi9_4HCLua9v9yQitjTPRLDAjKjtEqv9ORwePB6GUwh HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:21:05] "GET /get_playlist HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 54, in get_playlist
+    tracks.append(track_name + " " + artist_name)
+AttributeError: 'dict' object has no attribute 'append'
+127.0.0.1 - - [29/Nov/2024 23:21:05] "GET /get_playlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:21:05] "GET /get_playlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:21:05] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png&s=x4ddCWIvHLijxF2t3PPn HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:21:05] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:21:28] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:21:29] "GET /callback?code=AQB5SWl2-CxoAxSrHUaVlUxy-NwM22-WyH9XPJWUyhaJF923FJeVfcqvpyvgYOzVZ9OhopJ0VEmVEa8qk3qVO2dk4KsVZ-LzREqE9qsgrJbL2C_S9PKwQeK5YmTM1BXY_vvIPZH8qGw8nbLlatlAiDOcjAi5fn5JR45-d-k6JV0Fuurd1d3qR7KJON7w_czRj1FosJDM6lw1 HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:21:30] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:21:37] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:23:23] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:23:24] "GET /callback?code=AQDBPVw3_6d8MkduX7O_99Y3Fcc62IDafFam-dyphPLJ-2qzaL0tIhERdVHLJNKq4QkLEGlGPQR5YnrZP0vYrM3RRlvDn-1BxNfTQyJC3nw6ePGVEZVh6SV6orv14hyX4GBq_tDXG2z9tD-q9PXo8lNssA1nVscTsd7Mh3YJNNoeQsUu4btdxJHfYefeav1CyGg6wXh48Wig HTTP/1.1" 302 -
+Debugging middleware caught exception in streamed response at a point where response headers were already sent.
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/werkzeug/wsgi.py", line 256, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 32, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+127.0.0.1 - - [29/Nov/2024 23:23:25] "GET /get_playlist HTTP/1.1" 200 -
+Debugging middleware caught exception in streamed response at a point where response headers were already sent.
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/werkzeug/wsgi.py", line 256, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/werkzeug/wrappers/response.py", line 32, in _iter_encoded
+    for item in iterable:
+TypeError: 'Response' object is not iterable
+127.0.0.1 - - [29/Nov/2024 23:23:35] "GET /get_playlist HTTP/1.1" 200 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:24:45] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:24:46] "GET /callback?code=AQCZBgZiJrmZGeWWcoa216QFd684mjN0hrkjWV5fI2hXZfMVsTQ94A_sCUd3Cblg1pYbNB3GB6aYabUKXxbjhNX54rtRWD6FejU5HaAuz-W1gEG3Hyvl0m8INtYJTjCEd8nLdskhPNibG-P8lauBHlQlVBA6yzLGeRWymSZM1H5d1IXgKqOlHgpGn-xz0w4SXQOltZ9jhbHV HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:24:47] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:24:53] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:28:02] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:28:03] "GET /callback?code=AQBKQjo8f3RAn4oe5LXaY6VbV1qRAM2TZi7HD2dgk7MJh1ikt8LDWmd3TjfvusjJeWzkLPMLCyLL1ArIV-UjbglCGfsfYEqKYg48mUYKB4s2ZTZefVB-wbF5NyeMoi9fDhYNq_i_FcRMYloMb6eLo9OG-4rCZswDCf0nN9yBoczPHC8jIZXfXomTyhMWMxr9Cti3cypYHy93 HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:28:04] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:28:11] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:29:26] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:29:27] "GET /callback?code=AQDeUipQlO5BlrXrz_HK9CU8WsuExsWNfOH-R4UOgU7CUYkr8wfUGp0QkEaasVR_DPB-6Pclu_DatPV96EhLl0v0FLkLEq2L4JMNhnTXx4ak42xGt5rPAhwFk5TXB5dXEUxBJBWOy5ZJ5GoeYdf808GYZ9rEIR_o04firD9YOoypE42fqp5x9ZP02X1ME9SWxyml41cFSxXG HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:29:28] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:29:36] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:30:44] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:30:45] "GET /callback?code=AQCMDGsQ7Ybcr7dXYOZj72SlUYeQw-JeLM456VxBQbRZf_S-gmkeqshfnAKcTcHROtC6A6actjdJJnWPS0OUQac-4FaDkbQxQyXU7U1u9TGOr5bSb_onlGZVUCOE7RKtrUPJfKzS_kgZp6oJ_SmMSkWN_8gDDjoOtmND3f5yBNIvabco7Jqw2WXTv-gxf0wfEsvKaDJq3Zkj HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:30:46] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:30:54] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:32:28] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:38: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:32:29] "GET /callback?code=AQDMc8UTEBBQngawgfibkgGWMcOVI20RYmTZgRvAlz2BnQQpxHKc7wwl9XGRrwii1ZJUaGbaFNfB20hOzDhcGPQke9XVwAEOXioaHf0zAVFfYumW6SJBLE6hkGZw7SgnUg5gmfScsNohtvJ9THecNh47xg78bg0kAEXU6K4ir-Ziwox4GzJvasW556loJGP7c6PgkMZsJzAj HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:32:30] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:32:36] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:32:58] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:33:24] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:34:14] "GET /get_playlist HTTP/1.1" 302 -
+ * Serving Flask app 'spotifyauth'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:34:45] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:36:13] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:36:14] "GET /callback?code=AQBUTi7ReHXNZczf2r6O6tYvwQwEmq6AlHMKrIX3eFHlaEPC-HndDnrxSwdmtW90vdjvuRDZ1BU2YMzEit4LoVgMwm-1ezA5N3GQbO0NUEgTV36sbwAHvdP74omtILQSuC3s4Zj2tll1IwxgGk9jjS1Em66mOggW5PERyyysnsTWqaqfLB8sB_ISd-ZOfzKjFlxTnCqmaQoo HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:36:15] "GET /get_playlist HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 61, in get_playlist
+    return jsonify({tracks})
+                   ^^^^^^^^^
+TypeError: unhashable type: 'list'
+127.0.0.1 - - [29/Nov/2024 23:36:15] "GET /get_playlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:36:15] "GET /get_playlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:36:15] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png&s=oEuziDgJVS7IhpmW93ni HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:36:16] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:36:35] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:36:36] "GET /callback?code=AQDTgyKp5ow0jL-q8MoaKXB5bNkSzk2QytPbKJb7t8VRSSbV6SwgiuWHJJ9vKZNdc-f3BdBFh0Awco9ndJnYQoSzqmNs9vksIIbbYNs5iaBH6_MO-307nw4L85ND-1MVuhBdC1elkuQJ2NxRREorGe1SWnCtcRuHXZvMsDSi5gq2d_ILIGBJA5l_zUjx77BIr37kNY3OhCSp HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:36:37] "GET /get_playlist HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 57, in get_playlist
+    tracks.append((track_name, artist_name))
+AttributeError: 'dict' object has no attribute 'append'
+127.0.0.1 - - [29/Nov/2024 23:36:38] "GET /get_playlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:36:38] "GET /get_playlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:36:38] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png&s=L8piMMsU6ZbnMkOjZkzp HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:36:38] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:38:01] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:38:02] "GET /callback?code=AQANle2YQseXM8yVCfMadjeJMKXm64kSyIBfL0LxLot2Fkk7qZHVtdo1Q1-lROTxrV3qSIbYpDrX_vNIjfQM2KAEuX8DuttWzCMwpg0rIzqWGb0oVrldKdVD1Elw0YvLhnwjh2kkyQog6lQOw9jgJI0WRhXDvoKLqV0FQD2dw6HZdbCQn9LSuPzmk_fdEMHUCra3CrVUBbY3 HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:38:03] "GET /get_playlist HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/env/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/netrunner/Documents/spotikaek/spotifyauth.py", line 61, in get_playlist
+    return jsonify({tracks})
+                   ^^^^^^^^^
+TypeError: unhashable type: 'list'
+127.0.0.1 - - [29/Nov/2024 23:38:04] "GET /get_playlist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:38:04] "GET /get_playlist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Nov/2024 23:38:04] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png&s=zXRr89IfWuss1rdnCdXk HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:38:04] "GET /get_playlist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:38:17] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:38:17] "GET /callback?code=AQCHxOmWsPvRsgSby2MRpiweHJ4ZEouGdTXI4CuRia7XRvWG383xkiRaScuHJ1ggNfJaDnuRuYoU3v32ZM0kpfS2foEbq2ed5wjNtydF4B5moWM7pVjeJPp4id5-UZsAkJ39zROu8MK13oDpaMxSxfQh6EQ71jLEM45Ymzqq4kqui09CZERCaU7Wu9PGOMutbEJ8UrdbD6Xw HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:38:18] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:38:26] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/spotifyauth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:40:24] "GET /get_playlist HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:40:25] "GET /callback?code=AQDoV1VKgcESPCMcF7yhKeJK5XP0S-DF0KwDDh7w1yPtK0zwaZI2GSVV88q9GXWfxRXemewrEcC4Q1HCA8kv6b-x3jK7oChzOtNUMhXmKY3KcSikG7TLwGx686fnEX5mdCO1CiUTLOJGKbogVqdCLraiXY58U5mrjNvWfnmmBUXxFlT0mujj3IJRMMoOrlnB57WXjMullSrZ HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:40:26] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:40:30] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:41:26] "GET /get_playlist HTTP/1.1" 302 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:45:40] "GET /get_playlist HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:45:42] "GET / HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:45:43] "GET /callback?code=AQCINtJHE_VGtrcu21zbWEMTYaE0HYYc9O2Bw4fr4Ijl8z-8OMgGfNz_TN2bbMi6Vgj40C_5zwVXnZh2F-BaFtezIYyRsG1donYht2DGbsmPdY-rx0UUPdONKC300Skfvm-A5JptIyVhT8W24SnfZ2FI1K-rb1LN9FZaoLlnTVUUSvLcwf3-PfWZuD5P-dUFuRUws_l-dZ86 HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:45:44] "GET /get_playlist HTTP/1.1" 200 -
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+ * Detected change in '/home/netrunner/Documents/spotikaek/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-429-491
+127.0.0.1 - - [29/Nov/2024 23:46:15] "GET / HTTP/1.1" 302 -
+/home/netrunner/Documents/spotikaek/spotifyauth.py:41: DeprecationWarning: You're using 'as_dict = True'.get_access_token will return the token string directly in future versions. Please adjust your code accordingly, or use get_cached_token instead.
+  sp_auth.get_access_token(request.args['code'])
+127.0.0.1 - - [29/Nov/2024 23:46:16] "GET /callback?code=AQB6EhNg0w4bI2qaxl3R5rBNXw5VlBc-_wa-0cfRHPzDDqitQgvD08sy4b9SRb1fXm3XP_eAEwWzdbjkoAHEzq9YX-uufjHcEZ_Xsj83z3XfvIjy4S1U3YTSbXkmt2g7R-Egy9Z1MJczydU8W5llyyhAEabFHRVn6TXi5UiwmMDLaPT2EYR2OJcYjDHk5sr9oml5C-I4J_Xa HTTP/1.1" 302 -
+127.0.0.1 - - [29/Nov/2024 23:46:18] "GET /get_playlist HTTP/1.1" 200 -
+127.0.0.1 - - [29/Nov/2024 23:46:23] "GET /get_playlist HTTP/1.1" 302 -

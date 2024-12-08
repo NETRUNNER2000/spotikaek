@@ -37,6 +37,5 @@ def send_email(subject, body):
             server.login(sender_email, password)  # Login to your email account
             text = msg.as_string()  # Convert the MIME message to a string
             server.sendmail(sender_email, receiver_email, text)  # Send the email
-        print('Email sent successfully!')
     except Exception as e:
         print(f'Error: {e}')

@@ -14,16 +14,17 @@ SPOTIFY_REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")  # Redirect URI for OAu
 
 # Step 1: Fetch songs from Spotify playlist
 def get_spotify_playlist_tracks(playlist_id):
+    print("Redirect URI: " + SPOTIFY_REDIRECT_URI)
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
         client_id=SPOTIFY_CLIENT_ID,
         client_secret=SPOTIFY_CLIENT_SECRET,
         redirect_uri=SPOTIFY_REDIRECT_URI,
         scope="playlist-read-private"
     ))
-    
+    print("Init'd the spot")
     tracks = []
     results = sp.playlist_items(playlist_id)
-    
+    print('got playlist')
     while results:
         for item in results['items']:
             track = item['track']
